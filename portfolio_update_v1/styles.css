@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/heyzeus-escribo-M392stR65WI-unsplash.jpg') no-repeat top center ;
+  background: url('images/KS\ Sunset.jpeg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -69,7 +69,7 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 10%;
   border: 3px solid white;
   transition: all .5s;
 }
@@ -87,11 +87,12 @@ header .profile-image:hover {
 
 .exp-tag {
   font-size: 6em;
+  margin-bottom: 0;
 
 }
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
 }
 .card {
   margin: 30px;
@@ -104,7 +105,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: lightskyblue;
 }
 
 ul.skills {
