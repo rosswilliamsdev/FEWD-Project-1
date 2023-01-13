@@ -84,6 +84,11 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
+
+.exp-tag {
+  font-size: 6em;
+
+}
 .location {
   background-color: #222;
   color: yellow;
