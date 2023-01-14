@@ -104,7 +104,7 @@ header .profile-image:hover {
   background-color: #222;
   color: #E0E0DE;
 }
-.about-me-card {
+.card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -115,7 +115,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 
-.about-me-card:hover {
+.card:hover {
   border-color: lightskyblue;
 }
 
