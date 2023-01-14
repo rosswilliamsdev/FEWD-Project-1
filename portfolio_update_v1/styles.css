@@ -78,7 +78,6 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: none;
   color: black;
   padding: 10px;
   border-radius: 5px;
@@ -89,7 +88,6 @@ header .profile-image:hover {
 
 .exp-tag {
   font-size: 5em;
-  background-color: none;
   color: black;
   padding: 10px;
   border: 5px solid white;
