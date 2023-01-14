@@ -58,10 +58,19 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/KS\ Sunset\ copy.png') no-repeat top center ;
-  background-size: cover;
-  overflow: hidden;
   padding-top: 60px;
+}
+
+/* .header { 
+  background: url('images/KS\ Sunset\ copy.png') no-repeat top center ;
+    background-size: cover;
+  overflow: hidden;
+  */
+
+
+.content-wrap{
+    background: url('images/KS\ Sunset\ copy.png') ;
+    background-size: cover;
 }
 
 header {
@@ -69,14 +78,14 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  width: 20%;
+  height: auto;
   border-radius: 10%;
   border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.1) rotate(2deg);
 }
 .tag {
   color: black;
@@ -98,8 +107,11 @@ header .profile-image:hover {
     margin-bottom: 0;
     margin-top: 1em;
   text-shadow: 1px 0px #222;
-
 }
+.contact-tag {
+  margin-top: 2.5em;
+}
+
 .location {
   background-color: #222;
   color: #E0E0DE;
@@ -182,6 +194,26 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+#contact-img {
+  width: 20%;
+  height: auto;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 2em;
+}
+
+#hobbies {
+  width: 60%;
+  height: auto;
+  border-radius: 3em;
+}
+
+#core-values {
+    width: 60%;
+  height: auto;
+  border-radius: 3em;
 }
 
 /* Styles for larger screens */
