@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: white;
 }
 a:hover {
   color: #6633ff;
@@ -45,6 +45,7 @@ a:hover {
     margin-right: auto;
     color: white;
 }
+
 .nav li {
   padding: 5px 10px 10px 10px;
 }
@@ -57,7 +58,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/KS\ Sunset.jpeg') no-repeat top center ;
+  background: url('images/KS\ Sunset\ copy.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -77,22 +78,32 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color: none;
   color: black;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+  text-shadow: 1px 0px #222;
 } 
 
 .exp-tag {
-  font-size: 6em;
-  margin-bottom: 0;
+  font-size: 5em;
+  background-color: none;
+  color: black;
+  padding: 10px;
+  border: 5px solid white;
+  border-radius: 20px;
+  display: table;
+  margin: 10px auto;
+    margin-bottom: 0;
+    margin-top: 1em;
+  text-shadow: 1px 0px #222;
 
 }
 .location {
   background-color: #222;
-  color: white;
+  color: #E0E0DE;
 }
 .about-me-card {
   margin: 30px;
@@ -117,14 +128,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #F9788A;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #6A6A82;
 }
 
 footer {
